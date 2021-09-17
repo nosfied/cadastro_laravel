@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ControladorProduto;
+use App\Http\Controllers\ControladorCategoria;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +21,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/produtos', 'ControladorProduto@index');
-Route::get('/categorias', 'ControladorCategoria@index');
+Route::get('/produtos', [ControladorProduto::class, 'index']);
+Route::get('/categorias', [ControladorCategoria::class, 'index']);
