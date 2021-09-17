@@ -19,8 +19,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Cadastro de Produtos</h5>
                     <p class="card=text">
-                        Aqui você cadastra todos os seus produtos.
-                        Só não se esqueça de cadastrar previamente as categorias.
+                        Aqui você cadastra todas as suas categorias.
+                        Só não se esqueça de cadastrar previamente.
                     </p>
                     <a href="/produtos" class="btn btn-primary">Cadastre suas Categorias</a>
                 </div>
