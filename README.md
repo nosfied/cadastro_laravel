@@ -1,1 +1,1 @@
-Sistema de Cadastro simples utilizando o Laravel.
+Exemplo de Sistema de Cadastro utilizando o Laravel.
